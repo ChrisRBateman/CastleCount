@@ -1,7 +1,7 @@
 CastleCount
 ===========
 
-Java Application Demo
+#### Java Application Demo
 
 Returns the number of castles to build depending on the number of peaks
 and valleys in a stretch of land (defined by an array of integers).
@@ -21,10 +21,14 @@ Install JDK SE 8 or later http://www.oracle.com/technetwork/java/javase/download
 
 Run from a command prompt to build:
 
-	> javac CastleCount.java
+```
+$ javac CastleCount.java
+```
 	
 Then run:
 
-	> java CastleCount 2,6,6,6,3
+```
+$ java CastleCount 2,6,6,6,3
+```
 
 The parameter should be a string of comma separated integers.	
